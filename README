@@ -1,0 +1,28 @@
+#WEDESIGN web page
+using vanilla javascript 
+this was part of javascript course 
+
+1-mobile menu (humberger icon)
+we use javascript style methode to change css of the menu from 0 to -320 when menu clicked 
+so as to appear on the screen
+
+
+
+2-aboutus menu
+looping through aboutus menu to check the click event 
+at the event all title icons are deactivated first (normal background,non-bold font)
+then only the activated input (that was clicked) will be activated and its crosseponding
+in the aboutus object will appear on the text box
+
+
+3-service
+ next indicator
+ when clicking on next indictor 
+ looping through the services array
+find the current shown service in the services array and then if its not the last object show the following one
+
+prev indicator
+ when clicking on the prev indicator 
+ looping through the services array
+ find the current shown service using comparison and then if its not the first object show the prev one 
+ using inner.HTML
